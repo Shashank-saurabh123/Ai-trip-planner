@@ -45,7 +45,7 @@ function InfoSection({trip}) {
           <div className='flex gap-5'>
             <h2 className='p-1 px-3 bg-gray-200 rounded-full text-gray-500 text-xs md:text-md'> 🗓️ {trip?.userSelection?.noOfDays} Day</h2>
             <h2 className='p-1 px-3 bg-gray-200 rounded-full text-gray-500 text-xs md:text-md'> 💰{trip?.userSelection?.budget}Budget</h2>
-            <h2 className='p-1 px-3 bg-gray-200 rounded-full text-gray-500 text-xs md:text-md'> 🥂No. Of Traveler:{trip?.userSelection?.traveler} </h2>
+            <h2 className='p-1 px-3 bg-gray-200 rounded-full text-gray-500 text-xs md:text-md'> 🥂No. Of Traveler:{trip?.userSelection?.travelar} </h2>
           </div>
         </div>
         <Button><IoIosSend /></Button>
